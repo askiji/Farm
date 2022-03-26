@@ -6,7 +6,12 @@ import granja.Granja;
 import menu.Controles;
 
 public class Main {
-
+	
+	/**
+	 * Clase main
+	 * 
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		Granja ramonFarm = new Granja();
 		ramonFarm.init();
