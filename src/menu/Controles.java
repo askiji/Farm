@@ -19,6 +19,15 @@ public class Controles {
 
 	}
 	
+	public static void enter() {
+		String algo = "foo";
+		do {
+			System.out.println("Pulse intro para volver al MENU PRINCIPAL");
+			Scanner sc = new Scanner(System.in);
+			algo = sc.nextLine();
+		} while (!algo.equals(""));
+	}
+	
 	public static int number(int a, int b) {
 		Scanner sc = new Scanner(System.in);
 

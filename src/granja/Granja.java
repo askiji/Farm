@@ -82,6 +82,9 @@ public class Granja {
 			if(hayVacasLecheras()) {
 				obtenerLeche();
 			}
+			else {
+				System.out.println("No hay vacas lecheras");
+			}
 			break;
 		case 9:
 			venta();
@@ -218,7 +221,7 @@ public class Granja {
 	
 	private void listadoCompleto() {
 		for (int i = 0; i < corral.size(); i++) {
-			System.out.println(corral.get(i).toString());
+			System.out.println(corral.get(i));
 		}
 	}
 	

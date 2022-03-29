@@ -17,6 +17,7 @@ public class Cerdo extends Animal {
 		
 		return "cerdo: " + this.getNompre() +" "+ this.getPeso() + " " + this.getEdad() +" anyos uso :"  + this.getColorPiel();
 	}
+	
 	public String getColorPiel() {
 		return colorPiel;
 	}
